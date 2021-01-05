@@ -1,0 +1,36 @@
+		.row {
+			  display: flex;
+			  flex-wrap: wrap;
+			  padding: 0 4px;
+			  justify-content: center;
+			  align-items: center;
+			}
+
+			/* Responsive layout - makes a two column-layout instead of four columns */
+			
+			.column {
+			  flex: 25%;
+			  max-width: 100%;
+			  padding: 0 4px;
+			  justify-content: center;
+			  align-items: center;
+			}
+			
+			
+			
+			.column img {
+			  margin-top: 8px;
+			  vertical-align: middle;
+			  width: 100%;
+			  justify-content: center;
+			  align-items: center;
+			}
+
+		#img-caption{
+			font-size: 30px;
+		}
+		
+		#tribute-link{
+			color: blue;
+		}
+			
